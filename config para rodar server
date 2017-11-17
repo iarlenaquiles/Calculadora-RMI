@@ -1,0 +1,1 @@
+-Djava.security.policy=file:${workspace_loc}/${project_loc}/security.policy -Djava.rmi.server.codebase=file:${workspace_loc}/${project_loc}/bin/ -Djava.rmi.server.logCalls=true
