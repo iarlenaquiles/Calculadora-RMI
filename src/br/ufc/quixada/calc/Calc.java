@@ -9,4 +9,8 @@ public interface Calc extends Remote {
 	double mul(double n1, double n2) throws RemoteException;
 	
 	double som(double n1, double n2) throws RemoteException;
+	
+	double sub(double n1, double n2) throws RemoteException;
+	
+	double div(double n1, double n2) throws RemoteException;
 }
