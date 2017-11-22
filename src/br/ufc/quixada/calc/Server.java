@@ -20,10 +20,6 @@ public class Server implements Calc {
 		return n1 * n2;
 	}
 
-	public double soma(double n1, double n2) throws RemoteException {
-		return n1 + n2;
-	}
-
 	public static void main(String args[]) {
 		try {
 			Server obj = new Server();
@@ -37,5 +33,23 @@ public class Server implements Calc {
 			System.err.println("Server exception: " + e.toString());
 			e.printStackTrace();
 		}
+	}
+
+	@Override
+	public double som(double n1, double n2) throws RemoteException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double sub(double n1, double n2) throws RemoteException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double div(double n1, double n2) throws RemoteException {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
