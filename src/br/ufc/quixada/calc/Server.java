@@ -47,7 +47,8 @@ public class Server implements Calc {
 
 	@Override
 	public double div(double n1, double n2) throws RemoteException {
-		// TODO Auto-generated method stub
+		if (n2 != 0)
+			return n1 / n2;
 		return 0;
 	}
 }
