@@ -6,7 +6,7 @@ import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
 public class Server implements Calc {
-	
+
 	public Server() {
 	}
 
@@ -37,8 +37,7 @@ public class Server implements Calc {
 
 	@Override
 	public double som(double n1, double n2) throws RemoteException {
-		// TODO Auto-generated method stub
-		return 0;
+		return n1 + n2;
 	}
 
 	@Override
